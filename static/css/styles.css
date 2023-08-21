@@ -1,0 +1,27 @@
+body {
+    background-color: #FAFAFA;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+    /* https://wwww.w3schools.com/cssref/css_units.asp */
+}
+
+/* On prends notre span, on selectionne le premier l'icone */
+span i:first-child{
+    color: #E9ECEF;
+}
+
+/*
+On a inspecté la page pour savoir que les formulaires sont des Labels, notre est
+généré par django voilà pourquoi on passe par l'inspection pour gérer cela.
+*/
+label{
+    display:block;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    margin-botton: 16px;
+}
